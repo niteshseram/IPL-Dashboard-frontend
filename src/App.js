@@ -1,6 +1,6 @@
-import "./App.css";
+import "./App.scss";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { TeamPage } from "./pages/TeamPage";
+import { TeamPage } from "./pages/TeamPage/TeamPage";
 import { MatchPage } from "./pages/MatchPage";
 
 function App() {

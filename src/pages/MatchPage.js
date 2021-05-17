@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { MatchDetailCard } from "../components/MatchDetailCard";
+import { MatchDetailCard } from "../components/MatchDetailCard/MatchDetailCard";
 
 export const MatchPage = () => {
   const [matches, setMatches] = useState([]);
@@ -15,7 +15,7 @@ export const MatchPage = () => {
       setMatches(data);
     };
     fetchMatches();
-  }, []);
+  }, [teamName, year]);
 
   return (
     <div className="MatchPage">
