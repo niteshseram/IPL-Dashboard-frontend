@@ -13,9 +13,9 @@ export const MatchDetailCard = ({ teamName, match }) => {
         isMatchWon ? "MatchDetailCard won-card" : "MatchDetailCard lost-card"
       }
     >
-      <div>
+      <div className="main-detail">
         <span className="vs">vs</span>
-        <h1>
+        <h1 className="team-name">
           <Link to={otherTeamRoute}>{otherTeam}</Link>
         </h1>
         <h2 className="match-date">{match.date}</h2>

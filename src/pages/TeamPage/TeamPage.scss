@@ -1,12 +1,11 @@
 .TeamPage {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 10px;
   row-gap: 10px;
 
   .team-name-section {
-    grid-column: span 3;
+    grid-column: span 2;
     justify-self: start;
     align-self: end;
   }
@@ -23,12 +22,48 @@
   }
 
   .match-detail-section {
-    grid-column: span 4;
+    grid-column: span 3;
   }
 
   .more-link {
     align-self: center;
     justify-self: center;
     font-size: 1.5rem;
+    grid-column: span 3;
+  }
+
+  @media screen and (max-width: 768px) {
+    .team-name-section {
+      grid-column: span 2;
+    }
+
+    .win-loss-section {
+      grid-column: span 1;
+      padding: 10px;
+    }
+    .team-name {
+      font-size: 3rem;
+    }
+
+    .MatchSmallCard {
+      height: max-content;
+      grid-column: span 3;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .team-name {
+      font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .team-name {
+      font-size: 1.5rem;
+    }
+    .win-loss-section {
+      padding: 0px;
+      & > p {
+        font-size: 0.8rem;
+      }
+    }
   }
 }

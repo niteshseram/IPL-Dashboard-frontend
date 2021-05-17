@@ -5,4 +5,14 @@
   .match-result {
     margin-top: 10px;
   }
+
+  @media screen and (max-width: 480px) {
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 360px) {
+    .smallcard-team-name {
+      font-size: 1.2rem;
+    }
+  }
 }

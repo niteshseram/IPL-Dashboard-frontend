@@ -16,7 +16,9 @@ body {
   background-color: #03203c;
   color: #fff;
 }
-
+:root {
+  --bg-color: #03203c;
+}
 a {
   color: lightgray;
 }

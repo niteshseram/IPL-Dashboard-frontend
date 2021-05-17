@@ -4,4 +4,8 @@
   li {
     margin: 10px 0px;
   }
+
+  @media screen and (max-width: 480px) {
+    text-align: left;
+  }
 }

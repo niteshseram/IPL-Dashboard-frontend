@@ -11,4 +11,10 @@ header {
     font-size: 2rem;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 480px) {
+    .brand {
+      font-size: 1.2rem;
+    }
+  }
 }

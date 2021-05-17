@@ -16,4 +16,39 @@
       margin-bottom: 20px;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .team-name {
+      font-size: 1.5rem;
+    }
+    .match-date {
+      font-size: 1.2rem;
+    }
+
+    .match-venue,
+    .match-result {
+      font-size: 1rem;
+    }
+
+    .main-detail {
+      grid-column: span 2;
+    }
+
+    .additional-detail {
+      margin-top: 20px;
+      grid-column: span 2;
+      text-align: left;
+      & > h3 {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  @media screen and (max-width: 480px) {
+    padding: 10px;
+    .additional-detail {
+      & > p {
+        margin-bottom: 10px;
+      }
+    }
+  }
 }

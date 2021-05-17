@@ -11,4 +11,23 @@
   .page-heading {
     margin: 20px auto;
   }
+
+  @media screen and (max-width: 480px) {
+    .year-selector {
+      padding: 0px;
+      justify-self: start;
+      & > h3 {
+        font-size: 1rem;
+      }
+    }
+
+    .page-heading {
+      font-size: 1.2rem;
+      margin: 10px auto;
+    }
+
+    & {
+      column-gap: 10px;
+    }
+  }
 }

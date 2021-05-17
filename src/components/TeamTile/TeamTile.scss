@@ -7,4 +7,16 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    height: 100px;
+    h1 {
+      font-size: 1.2rem;
+    }
+  }
 }
