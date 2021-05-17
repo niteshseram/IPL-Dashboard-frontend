@@ -1,0 +1,14 @@
+header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  .brand {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}
