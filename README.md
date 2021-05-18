@@ -8,15 +8,15 @@ This is the front-end part of this full-stack project.
 
 ### Home Page
 
-![Home Page](/README/homepage.jpg)
+![Home Page](/README/homepage.JPG)
 
 ### Team Page
 
-![Team Page](/README/teampage.jpg)
+![Team Page](/README/teampage.JPG)
 
 ### Match Page
 
-![Match Page](/README/matchpage.jpg)
+![Match Page](/README/matchpage.JPG)
 
 ## Technologies used
 
