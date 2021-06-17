@@ -1,6 +1,6 @@
 {
   "name": "ipl-frontend",
-  "homepage": "http://niteshseram.github.io/IPLDashboard",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
